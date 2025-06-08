@@ -47,6 +47,7 @@ h2 {
     line-height: 1.2188;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 0.5em;
 }
 
 .main {
@@ -229,20 +230,51 @@ h2 {
 
 .form_select {
     position: relative;
+    margin-bottom: 11px;
 }
-.form_select__input{
+
+.form_select__input {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    z-index: 1;
+    top: 8px;
+    left: 8px;
+    appearance: none;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #AEAEAE;
+    box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
 }
+
+.form_select__input:checked {
+    background-image: url("../img/bg-check.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1rem;
+}
+
 .form_select_box {
+    position: relative;
     border: 1px solid #D9D9D9;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.form_select__input:checked ~ .form_select_box {
+    border-color: #FFC116;
 }
 
 .form_select__top {
     display: flex;
     gap: 26px;
     padding: 20px 22px 10px;
+}
+
+.form_select__img {
+    padding-top: 28px;
 }
 
 .form_select__img img {
@@ -255,22 +287,92 @@ h2 {
     flex-grow: 1;
 }
 
+.form_select__title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    padding-right: 110px;
+}
+
+.form_select__info {
+    list-style: none;
+}
+
+.form_select__info li {
+    padding: 0px 0px 13px 26px;
+    background-image: url("../img/check.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 19px;
+}
+
 .form_select__price {
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 129px;
-    height: 129px;
+    padding: 23px 12px 40px 40px;
     background: #FFC116;
     text-align: right;
+    clip-path: circle(67px at 83px 24px);
 }
-.form_select__price div:first-of-type{
+
+.form_select__price div:first-of-type {
     color: #5E5E5E;
     font-size: 16px;
     text-decoration: line-through;
     font-weight: 300;
 }
-.form_select__price div:last-of-type{
+
+.form_select__price div:last-of-type {
     font-size: 20px;
     font-weight: 700;
+}
+
+.form_select__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0px 16px 16px;
+}
+
+.form_select__bottom .btn {
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    padding: 11px 16px;
+    border-radius: 50rem;
+    border: 1px solid;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn_primary_outline {
+    border-color: #FFC116;
+    background-color: transparent;
+}
+
+.btn_primary_outline:hover,
+.btn_primary_outline:active {
+    background-color: #FFC116;
+}
+
+.btn_primary_grd {
+    border: none;
+    padding: 12px 16px;
+    background: linear-gradient(90deg, #FFC116 0%, #FFEAB0 100%);
+}
+
+.form_select__input:checked ~ .form_select_box .btn_primary_grd {
+    background: linear-gradient(90deg, #BFBFBF 0%, #FFEAB0 100%);
 }
