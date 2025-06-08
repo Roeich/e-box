@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ro" class="page">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>E-BOX</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <main class="main">
         <!-- start hero section -->
@@ -75,7 +77,7 @@
                     </div>
                     <div class="comment_content">
                         <p>
-                            “Best purchase I’ve ever made to save money for my job. Highly recommend to anyone interested. They are like a small microwave on the go and have the texture of a fresh home cooked meal!” –  <br>
+                            “Best purchase I’ve ever made to save money for my job. Highly recommend to anyone interested. They are like a small microwave on the go and have the texture of a fresh home cooked meal!” – <br>
                             <b>A. Garcia</b>
                         </p>
                     </div>
@@ -86,7 +88,8 @@
 
         <!-- start form section -->
         <section class="form_section">
-            <form class="form" id="form" action="#">
+            <form class="form" id="form" action="#" autocomplete="off">
+                <!-- form top -->
                 <div class="form_top">
                     <h2 class="form_title">Аксессуары для Максимального Удобства</h2>
                     <div class="form_select">
@@ -113,7 +116,10 @@
                                     <button class="btn btn_primary_outline" type="button">Detalii</button>
                                 </div>
                                 <div>
-                                    <label class="btn btn_primary_grd" type="button" for="prd_1">Anulează</label>
+                                    <label class="btn btn_primary_grd" type="button" for="prd_1">
+                                        <span>Adaugă</span>
+                                        <span>Anulează</span>
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -143,8 +149,68 @@
                                     <button class="btn btn_primary_outline" type="button">Detalii</button>
                                 </div>
                                 <div>
-                                    <label class="btn btn_primary_grd" type="button" for="prd_2">Anulează</label>
+                                    <label class="btn btn_primary_grd" type="button" for="prd_2">
+                                        <span>Adaugă</span>
+                                        <span>Anulează</span>
+                                    </label>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- form middle  -->
+                <div class="form_middle">
+                    <div class="order_preview">
+                        <h3>Ваш заказ</h3>
+                        <table class="order_preview__table">
+                            <tbody>
+                                <tr>
+                                    <td>1x</td>
+                                    <td>E-BOX® Portable Electric Heated Lunch Box</td>
+                                    <td>
+                                        <span class="order_preivew__oldPrice">120 Ron</span><br>
+                                        <b class="order_preview__price"> 69 Ron </b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1x</td>
+                                    <td>Aesti® Lunch box</td>
+                                    <td>
+                                        <b class="order_preview__price"> 69 Ron </b>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2">Всього</td>
+                                    <td>
+                                        <b class="order_preview__price">200 RON</b>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- form bottom -->
+                <div class="form_bottom">
+                    <h2>Заполните форму для заказа</h2>
+                    <p>Un manager vă va contacta în termen de <b>15 minute</b> <br> pentru a confirma comanda și a clarifica detaliile.</p>
+                    <div class="badge">lucrăm de la 9:00 până la 20:00</div>
+                    <div class="form_bottom__box">
+                        <div class="form_bottom__inner">
+                            <div class="form_bottom__item">
+                                <input class="form_input" type="text" name="name" placeholder="Имя" required="">
+                            </div>
+                            <div class="form_bottom__item">
+                                <input class="form_input" type="tel" name="phone" placeholder="Telefon" required="" inputmode="text">
+                            </div>
+                            <div>
+                                <button class="btn" type="submit">
+                                    Comandă Acum
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -154,4 +220,5 @@
         <!-- end form section -->
     </main>
 </body>
+
 </html>

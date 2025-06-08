@@ -221,7 +221,7 @@ h2 {
 /* form section */
 
 .form_top {
-    padding: 24px 16px 48px
+    padding: 24px 16px 30px
 }
 
 .form_title {
@@ -263,7 +263,7 @@ h2 {
     overflow: hidden;
 }
 
-.form_select__input:checked ~ .form_select_box {
+.form_select__input:checked~.form_select_box {
     border-color: #FFC116;
 }
 
@@ -373,6 +373,105 @@ h2 {
     background: linear-gradient(90deg, #FFC116 0%, #FFEAB0 100%);
 }
 
-.form_select__input:checked ~ .form_select_box .btn_primary_grd {
+.form_select__input:checked~.form_select_box .btn_primary_grd span:first-of-type,
+.form_select__input:not(:checked)~.form_select_box .btn_primary_grd span:last-of-type {
+    display: none;
+}
+
+.form_select__input:checked~.form_select_box .btn_primary_grd {
     background: linear-gradient(90deg, #BFBFBF 0%, #FFEAB0 100%);
+}
+
+.form_middle {
+    padding: 24px 16px;
+    background: #F1F1F1;
+}
+
+.order_preview {
+    background: #FFFFFF;
+    box-shadow: 0px 72px 29px rgba(0, 0, 0, 0.01), 0px 40px 24px rgba(0, 0, 0, 0.05), 0px 18px 18px rgba(0, 0, 0, 0.09), 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.order_preview>h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order_preview__table {
+    border-collapse: collapse;
+    font-weight: 500;
+}
+
+.order_preview__table td {
+    padding: 7px;
+}
+
+.order_preview__table tbody td {
+    border-bottom: 1px solid var(--c_gray);
+}
+
+.order_preview__table tr td:last-of-type {
+    text-align: end;
+    text-wrap: nowrap;
+}
+
+.order_preivew__oldPrice {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.order_preview__price {
+    font-size: 20px;
+    font-weight: 70px;
+}
+
+.form_bottom {
+    padding: 48px 9px;
+    text-align: center;
+}
+
+.badge {
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #FFC116 0%, #FFEAB0 100%);
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.form_bottom>h2 {}
+
+.form_bottom>p {
+    margin-bottom: 14px;
+}
+
+.form_bottom>.badge {
+    margin-bottom: 40px;
+}
+
+.form_bottom__box {
+    padding: 0px 17px;
+}
+
+.form_bottom__inner {
+    padding: 0px 27px;
+}
+
+.form_bottom__item {
+    margin-bottom: 14px;
+}
+
+.form_input {
+    text-align: center;
+    padding: 16px 25px;
+    border: 1px solid #DADADA;
+    border-radius: 52px;
+    width: 100%;
+    outline: none;
+}
+.form_input:focus{
+    border-color:#FFC116;
 }
