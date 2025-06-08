@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url("../fonts/Inter.ttf");
+}
+
+@font-face {
+    font-family: "Oswald", sans-serif;
+    src: url("../fonts/Oswald.ttf");
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --c_black: #000000;
+    --c_white: #ffffff;
+}
+
+body {
+    min-width: 480px;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    color: var(--c_black);
+}
+
+.fs_12 {
+    font-size: 12px;
+}
+
+.fs_14 {
+    font-size: 14px;
+}
+
+.fs_16 {
+    font-size: 16px;
+}
+
+.fs_18 {
+    font-size: 18px;
+}
+
+.fs_20 {
+    font-size: 20px;
+}
+
+.fs_22 {
+    font-size: 22px;
+}
+
+.fs_24 {
+    font-size: 24px;
+}
+
+.fs_32 {
+    font-size: 32px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    width: 480px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/* hero section */
+
+.hero_section {
+    color: var(--c_white);
+    background-image: url("../img/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_top {
+    font-weight: 700;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, #F75920 0%, #F86022 80.55%, #F86223 100%);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.hero_main {
+    padding: 18px 16px 0px;
+}
+
+.hero_badge {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--c_black);
+    padding: 15px 26px;
+    border-radius: 50rem;
+    max-width: max-content;
+    margin: auto auto 18px;
+    background: linear-gradient(90deg, #FFC116 0%, #FFEAB0 100%);
+}
+
+.hero_title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero_spacer {
+    height: 560px;
+}
+
+.hero_reviews {
+    color: var(--c_black);
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 40px;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(9px);
+    border-radius: 73px;
+    margin-bottom: -20px;
+}
+
+/* info section */
