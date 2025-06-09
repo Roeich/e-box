@@ -546,9 +546,11 @@ button {
     border-top: 1px solid rgba(121, 96, 72, 0.1);
     box-shadow: none;
 }
-.process_section .faq__accordion-item:last-of-type{
+
+.process_section .faq__accordion-item:last-of-type {
     border-bottom: 1px solid rgba(121, 96, 72, 0.1);
 }
+
 .process_section .faq__accordion-button {
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -838,53 +840,62 @@ button {
     border-radius: 46px 46px 0px 0px;
     background: linear-gradient(245.93deg, #FFC116 -19.6%, #F86E28 78.93%);
 }
-.section10_title{
+
+.section10_title {
     margin-bottom: 50px;
 }
 
-.section10_imgBox{
+.section10_imgBox {
     position: relative;
     margin: 0px -46px;
 }
-.section10_img{
+
+.section10_img {
     width: 100%;
 }
-.section10_infoItem{
+
+.section10_infoItem {
     font-size: 14px;
     font-weight: 700;
     position: absolute;
     text-transform: uppercase;
 }
-.section10_infoItem:nth-of-type(1){
+
+.section10_infoItem:nth-of-type(1) {
     left: 24px;
     top: -24px;
     max-width: 125px;
 }
-.section10_infoItem:nth-of-type(2){
+
+.section10_infoItem:nth-of-type(2) {
     left: 178px;
     top: -40px;
     max-width: 104px;
 }
-.section10_infoItem:nth-of-type(3){
+
+.section10_infoItem:nth-of-type(3) {
     left: 312px;
     top: -14px;
     max-width: 128px;
 }
-.section10_infoItem:nth-of-type(4){
+
+.section10_infoItem:nth-of-type(4) {
     left: 51px;
     bottom: 11px;
     max-width: 183px;
 }
-.section10_infoItem:nth-of-type(5){
+
+.section10_infoItem:nth-of-type(5) {
     left: 350px;
     bottom: 12px;
     max-width: 101px;
 }
 
-.section10_bottom{
+.section10_bottom {
     padding: 40px 68px 49px;
     text-align: center;
 }
+
 .section10_bottom .btn {
     width: 100%;
 }
@@ -896,20 +907,20 @@ button {
     padding-top: 22px;
 }
 
-
-
-
 .faq_section {
     padding: 40px 16px 51px;
     background-color: #F0F0F0;
 }
-
-.faq_section .faq__accordion {
-    margin-bottom: 6px !important;
-    gap: 8px;
-    font-size: 18px;
-    line-height: 21px;
+.faq_section .section10_title{
+    text-align: center;
+    margin-bottom: 14px;
 }
+.faq_section .faq__accordion {}
+
+.faq_section .faq__accordion-item {
+    margin-bottom: 6px !important;
+}
+
 .faq_section .faq__accordion-button {
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -925,21 +936,18 @@ button {
     content: "";
     display: block;
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 12px;
+    right: 12px;
     width: 29px;
     height: 29px;
-    border-radius: 5px;
-    background-color: #F3F3F3;
-    background-image: url("../img/icon-down.svg");
+    background-image: url("../img/circle-down.svg");
     background-repeat: no-repeat;
-    background-size: 16px;
+    background-size: 100%;
     background-position: center;
 }
 
 .faq_section .faq__accordion-item.active .faq__accordion-button::after {
     transform: rotate(180deg);
-    background-color: #FFC116;
 }
 
 .faq_section .faq__accordion-button-icon {
