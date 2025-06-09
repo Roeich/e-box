@@ -532,9 +532,10 @@ button {
     height: 50px;
 }
 
-.process_section{
+.process_section {
     padding-bottom: 48px;
 }
+
 .process_section .faq__accordion {
     gap: 8px;
     font-size: 18px;
@@ -553,6 +554,28 @@ button {
     font-weight: 700;
     padding: 20px 70px 20px 16px;
     cursor: pointer;
+    position: relative;
+}
+
+.process_section .faq__accordion-button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 29px;
+    height: 29px;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    background-image: url("../img/icon-down.svg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: center;
+}
+
+.process_section .faq__accordion-item.active .faq__accordion-button::after {
+    transform: rotate(180deg);
+    background-color: #FFC116;
 }
 
 .process_section .faq__accordion-button-icon {
@@ -573,18 +596,70 @@ button {
     display: block;
 }
 
-.process_section .faq__accordion-content-holder{
+.process_section .faq__accordion-content-holder {
     text-align: center;
 }
-.process_section .faq__accordion-content-holder>img{
+
+.process_section .faq__accordion-content-holder>img {
     width: 100%;
     margin-bottom: 24px;
 }
 
-.extraInfo_section{
-    padding: 40px 28px 0px;
-    text-align: center;
+.process_section .faq__accordion-content-holder {
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.extraInfo_title{
+
+.extraInfo_section {
+}
+
+.extraInfo_top{
+    padding: 40px 45px 0px;
+    text-align: center;
+    background: #FFC116;
+    border-radius: 40px 40px 0px 0px;
+}
+.extraInfo_title {
     margin-bottom: 24px;
+}
+
+.extraInfo_imgBox {
+    position: relative;
+}
+
+.extraInfo_img {
+    margin:0px -45px;
+    max-width: calc(100% + 90px);
+}
+
+.extraInfo_text {
+    font-size: 18px;
+    font-weight: 700;
+    background: rgba(255, 227, 148, 0.86);
+    backdrop-filter: blur(2px);
+    border-radius: 40px;
+    padding: 6px 16px 6px 64px;
+    position: absolute;
+    top: 45%;
+    left: 58%;
+    transform: translate(-50%);
+    width: max-content;
+}
+
+.extraInfo_overlay {
+    position: absolute;
+    left: 32px;
+    bottom: 70px;
+    width: 150px;
+}
+.w_full{
+    width: 100%;
+}
+.extraInfo_bottom{
+    padding-top: 34px;
+}
+.extraInfo_bottomTitle{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 26px;
 }

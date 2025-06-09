@@ -232,7 +232,7 @@
         <!-- start order process section -->
         <section class="process_section">
             <div class="faq__accordion">
-                <div class="faq__accordion-item">
+                <div class="faq__accordion-item active">
                     <h3 class="faq__accordion-button">
                         Ce se include în ambalaj
                     </h3>
@@ -270,16 +270,165 @@
 
         <!-- start extra info section -->
         <section class="extraInfo_section">
-            <h2 class="extraInfo_title">Bucură-te de mese calde și sănătoase oriunde</h2>
-            <p>Cu E-BOX®, ai mereu la îndemână prânzul tău preferat, <b>proaspăt încălzit.</b></p>
-            <div>
-                <img src="assets/img/ebox.webp" alt="ebox">
-                <div>doar 15–20 minute</div>
-                <img src="assets/img/ebox-overlay.webp" alt="ebox overlay">
+            <div class="extraInfo_top">
+                <h2 class="extraInfo_title">Bucură-te de mese calde și sănătoase oriunde</h2>
+                <p>Cu E-BOX®, ai mereu la îndemână prânzul tău preferat, <b>proaspăt încălzit.</b></p>
+                <div class="extraInfo_imgBox">
+                    <img class="extraInfo_img" src="assets/img/ebox.webp" alt="ebox">
+                    <div class="extraInfo_text">doar 15–20 minute</div>
+                    <img class="extraInfo_overlay" src="assets/img/ebox-overlay.webp" alt="ebox overlay">
+                </div>
+            </div>
+            <div class="extraInfo_bottom">
+                <h3 class="extraInfo_bottomTitle">Cu E-BOX®, ai mereu la îndemână prânzul tău preferat, proaspăt încălzit.</h3>
+                <img  class="w_full" src="assets/img/ebox-extra-info.jpg" alt="extra info">
             </div>
         </section>
         <!-- end extra info section -->
 
+        <!-- start form section -->
+        <section class="form_section">
+            <form class="form" id="form" action="#" autocomplete="off">
+                <!-- form top -->
+                <div class="form_top">
+                    <h2 class="form_title">Investiția ce se rescumpără în doar 2-4 mese în oras</h2>
+                    <p>În loc să plătești zilnic la restaurante sau fast-food, alegi mese calde și proaspete, gătite acasă. E-BOX® costă cât 2–4 mese în oraș și se amortizează rapid!</p>
+                    <div class="form_select">
+                        <input class="form_select__input" type="checkbox" id="prd_1" name="product1" value="E-BOX® Insulated Lunch Bag">
+                        <div class="form_select_box">
+                            <div class="form_select__top">
+                                <div class="form_select__img">
+                                    <img src="assets/img/e-box-insulated-lunch-bag.png" alt="E-BOX Insulated Lunch Bag">
+                                </div>
+                                <div class="form_select__content">
+                                    <h3 class="form_select__title">E-BOX® Insulated Lunch Bag</h3>
+                                    <ul class="form_select__info">
+                                        <li>Capacity - 10 L</li>
+                                        <li>Heat & Cold Preservation</li>
+                                    </ul>
+                                </div>
+                                <div class="form_select__price">
+                                    <div>120 Ron</div>
+                                    <div>69 Ron</div>
+                                </div>
+                            </div>
+                            <div class="form_select__bottom">
+                                <div>
+                                    <button class="btn btn_primary_outline" type="button">Detalii</button>
+                                </div>
+                                <div>
+                                    <label class="btn btn_primary_grd" type="button" for="prd_1">
+                                        <span>Adaugă</span>
+                                        <span>Anulează</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_select">
+                        <input class="form_select__input" type="checkbox" id="prd_2" name="product2" value="Aesti® Lunch box 1250 ml">
+                        <div class="form_select_box">
+                            <div class="form_select__top">
+                                <div class="form_select__img">
+                                    <img src="assets/img/aesti-luhch-box-1250ml.png" alt="Aesti Lunch box 1250 ml">
+                                </div>
+                                <div class="form_select__content">
+                                    <h3 class="form_select__title">Aesti® Lunch box 1250 ml</h3>
+                                    <ul class="form_select__info">
+                                        <li>3 compartments</li>
+                                        <li>Cutlery is included</li>
+                                        <li>Microwave safe & Leakproof</li>
+                                    </ul>
+                                </div>
+                                <div class="form_select__price">
+                                    <div>80 Ron</div>
+                                    <div>49 Ron</div>
+                                </div>
+                            </div>
+                            <div class="form_select__bottom">
+                                <div>
+                                    <button class="btn btn_primary_outline" type="button">Detalii</button>
+                                </div>
+                                <div>
+                                    <label class="btn btn_primary_grd" type="button" for="prd_2">
+                                        <span>Adaugă</span>
+                                        <span>Anulează</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- form middle  -->
+                <div class="form_middle">
+                    <div class="order_preview">
+                        <h3>Ваш заказ</h3>
+                        <table class="order_preview__table">
+                            <tbody>
+                                <tr>
+                                    <td>1x</td>
+                                    <td>E-BOX® Portable Electric Heated Lunch Box</td>
+                                    <td>
+                                        <span class="order_preivew__oldPrice">120 Ron</span><br>
+                                        <b class="order_preview__price"> 69 Ron </b>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1x</td>
+                                    <td>Aesti® Lunch box</td>
+                                    <td>
+                                        <b class="order_preview__price"> 69 Ron </b>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2">Всього</td>
+                                    <td>
+                                        <b class="order_preview__price">200 RON</b>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- form bottom -->
+                <div class="form_bottom">
+                    <h2>Заполните форму для заказа</h2>
+                    <p>Un manager vă va contacta în termen de <b>15 minute</b> <br> pentru a confirma comanda și a clarifica detaliile.</p>
+                    <div class="badge">lucrăm de la 9:00 până la 20:00</div>
+                    <div class="form_bottom__box">
+                        <div class="form_bottom__inner">
+                            <div class="form_bottom__item">
+                                <input class="form_input" type="text" name="name" placeholder="Имя" required="">
+                            </div>
+                            <div class="form_bottom__item">
+                                <input class="form_input" type="tel" name="phone" placeholder="Телефон" required="" inputmode="text">
+                            </div>
+                            <div>
+                                <button class="btn btn_cta" type="submit">
+                                    Comandă Acum
+                                </button>
+                            </div>
+                        </div>
+                        <div class="form_extra__info">
+                            <div class="form_extra__infoItem">
+                                <img src="assets/img/icon-return-box.svg" alt="return box">
+                                <span>Retur 14 zile</span>
+                            </div>
+                            <div class="form_extra__infoItem">
+                                <img src="assets/img/icon-credit-card.svg" alt="credit card">
+                                <span>Plata la livrare</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- end form section -->
 
     </main>
 
