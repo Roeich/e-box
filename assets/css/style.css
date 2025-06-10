@@ -54,12 +54,14 @@ button {
     font-family: "Inter", sans-serif;
 }
 
-.main {
+.wrapper {
     width: 480px;
     overflow: hidden;
     margin: 0 auto;
     background-color: #fff;
 }
+
+.main {}
 
 
 /* hero section */
@@ -911,10 +913,12 @@ button {
     padding: 40px 16px;
     background-color: #F0F0F0;
 }
-.faq_section .section10_title{
+
+.faq_section .section10_title {
     text-align: center;
     margin-bottom: 14px;
 }
+
 .faq_section .faq__accordion {}
 
 .faq_section .faq__accordion-item {
@@ -976,4 +980,98 @@ button {
 .faq_section .faq__accordion-content-holder>img {
     width: 100%;
     margin-bottom: 24px;
+}
+
+.testimonials_section {
+    padding: 48px 16px;
+}
+
+.testimonials_title {
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.testimonial_item {
+    display: flex;
+    padding: 17px 23px;
+    gap: 22px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    background-color: #F0F0F0;
+    background-image: url("../img/icon-quate.svg");
+    background-repeat: no-repeat;
+    background-position: top 22px right 22px;
+}
+
+.testimonial_clientImg img {
+    width: 61px;
+    min-width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial_content {
+    flex-grow: 1;
+}
+
+.testimonial_clientName {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.testimonial_rating {
+    max-width: 116px;
+    margin-bottom: 6px;
+}
+
+.testimonial_clientReview {
+    font-size: 14px;
+}
+
+.testimonials_bottom {
+    padding: 10px 68px 0px;
+    text-align: center;
+}
+
+.testimonials_bottom .btn {
+    width: 100%;
+}
+
+.testimonials_bottomText {
+    color: #696565;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 22px;
+}
+
+.footer {
+    color: #ffffff;
+    border-radius: 30px 30px 0 0;
+    padding: 20px 36px 24px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.footer a:hover{
+    color: #FFC116;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 19px 20px;
 }
