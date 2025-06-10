@@ -22,6 +22,10 @@
     --c_white: #ffffff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-width: 480px;
     position: relative;
@@ -532,6 +536,187 @@ button {
     width: 50px;
     min-width: 50px;
     height: 50px;
+}
+
+
+/*  */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_content {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100svh - 60px);
+}
+
+.modal_header,
+.modal_footer {
+    padding: 12px 14px;
+    font-weight: bold;
+}
+
+.modal_header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.modal_body {
+    padding: 0px 20px 32px;
+    text-align: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal_body::-webkit-scrollbar {
+    display: none;
+}
+
+.modal_body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.close_btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #DFDFDF;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+}
+
+.prdModal_slider{
+    margin-bottom: 28px;
+}
+.prdModal_slider img{
+    width: 100%;
+    height: 409px;
+    object-fit: cover;
+}
+.prdModal_slider .owl-dots{
+    text-align: center;
+}
+.prdModal_slider .owl-dot{
+    width: 25px;
+    height: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50rem;
+    background: #E8E8E8 !important;
+}
+.prdModal_slider .owl-dot.active{
+    background: #FFC116 !important;
+}
+.prdModal_title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.prdModal_priceBox {
+    margin-bottom: 14px;
+}
+
+.prdModal_price__old {
+    color: #938A8A;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.prodModal_price {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.prodModal_price span {
+    color: #ffffff;
+    font-size: 14px;
+    background: linear-gradient(90deg, #FFC116 0%, #F86223 100%);
+    border-radius: 0px 10px 10px 10px;
+    padding: 6px 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.prdModal_desc {
+    margin-bottom: 20px;
+}
+
+.prdModal_info {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.prdModal_info li {
+    padding: 0px 0px 13px 45px;
+    background-image: url("../img/check2.svg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 30px;
+    min-height: 50px;
+}
+
+.prdModal_extraInfo {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.prdModal_actionRow {
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+.prdModal_actionRow .btn {
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.prdModal_cancelLink {
+    color: #696565;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.footer_btn {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cancel_btn {
+    background-color: #ccc;
+}
+
+.confirm_btn {
+    background-color: #28a745;
+    color: white;
 }
 
 .process_section {
@@ -1063,9 +1248,9 @@ button {
 .footer a {
     color: #ffffff;
     text-decoration: none;
-
 }
-.footer a:hover{
+
+.footer a:hover {
     color: #FFC116;
 }
 

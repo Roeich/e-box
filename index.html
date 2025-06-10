@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <title>E-BOX</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 </head>
 
 <body>
@@ -32,7 +33,7 @@
                 </div>
             </section>
             <!-- end hero section -->
-    
+
             <!-- start info section -->
             <section class="info_section">
                 <div class="info_list">
@@ -70,7 +71,7 @@
                         <div class="info_price__discount">-40%</div>
                     </div>
                 </div>
-    
+
                 <div class="comment_box">
                     <div class="comment_item">
                         <div class="comment_user">
@@ -86,13 +87,14 @@
                 </div>
             </section>
             <!-- end info section -->
-    
+
             <!-- start form section -->
-            <section class="form_section">
+            <section class="form_section" id="order_now">
                 <form class="form" id="form" action="#" autocomplete="off">
                     <!-- form top -->
                     <div class="form_top">
                         <h2 class="form_title">Аксессуары для Максимального Удобства</h2>
+                        <!-- select 1 -->
                         <div class="form_select">
                             <input class="form_select__input" type="checkbox" id="prd_1" name="product1" value="E-BOX® Insulated Lunch Bag">
                             <div class="form_select_box">
@@ -114,7 +116,7 @@
                                 </div>
                                 <div class="form_select__bottom">
                                     <div>
-                                        <button class="btn btn_primary_outline" type="button">Detalii</button>
+                                        <button class="btn btn_primary_outline" type="button" data-modal-target="modal_1">Detalii</button>
                                     </div>
                                     <div>
                                         <label class="btn btn_primary_grd" type="button" for="prd_1">
@@ -125,6 +127,63 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- modal 2 -->
+                        <div id="modal_1" class="modal prd_modal">
+                            <div class="modal_content">
+                                <div class="modal_header">
+                                    <button class="close_btn" type="button" data-close>&times;</button>
+                                </div>
+                                <div class="modal_body">
+                                    <div class="prdModal_slider owl-carousel">
+                                        <div>
+                                            <img src="assets/img/slider1-1.jpg" alt="slide">
+                                        </div>
+                                        <div>
+                                            <img src="assets/img/slider1-2.jpg" alt="slide">
+                                        </div>
+                                        <div>
+                                            <img src="assets/img/slider1-3.jpg" alt="slide">
+                                        </div>
+                                        <div>
+                                            <img src="assets/img/slider1-4.jpg" alt="slide">
+                                        </div>
+                                        <div>
+                                            <img src="assets/img/slider1-5.jpg" alt="slide">
+                                        </div>
+                                        <div>
+                                            <img src="assets/img/slider1-6.jpg" alt="slide">
+                                        </div>
+                                    </div>
+                                    <h3 class="prdModal_title">E-BOX® Insulated Lunch Bag</h3>
+                                    <div class="prdModal_priceBox">
+                                        <div class="prdModal_price__old">210 ron</div>
+                                        <div class="prodModal_price">
+                                            129 Ron <span>-40%</span>
+                                        </div>
+                                    </div>
+                                    <ul class="prdModal_info">
+                                        <li><b>Excellent thermal insulation:</b> Thanks to snow-aluminum film and double lamination, the bag effectively retains heat and cold.</li>
+                                        <li><b>Improved insulation:</b> The middle layer of high quality insulation foam prolongs temperature retention and improves shape stability.</li>
+                                        <li><b>Durable Material:</b> Oxford outer layer provides wear resistance, durability and elegant appearance.</li>
+                                        <li><b>Compact Size:</b> The <b>10 liter capacity</b> is ideal for offices, travel and picnics.</li>
+                                        <li><b>Fashionable Design:</b> The modern and simple style of the bag harmonizes with different usage scenarios.</li>
+                                    </ul>
+
+                                    <div class="prdModal_actionRow">
+                                        <button class="btn btn_cta" type="button" data-check="prd_1" data-close>
+                                           + Adaugă la comandă
+                                        </button>
+
+                                        <div class="prdModal_cancelLink" data-uncheck="prd_1" data-close>
+                                            Renunță la ofertă
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- select 2 -->
                         <div class="form_select">
                             <input class="form_select__input" type="checkbox" id="prd_2" name="product2" value="Aesti® Lunch box 1250 ml">
                             <div class="form_select_box">
@@ -147,7 +206,7 @@
                                 </div>
                                 <div class="form_select__bottom">
                                     <div>
-                                        <button class="btn btn_primary_outline" type="button">Detalii</button>
+                                        <button class="btn btn_primary_outline" type="button" data-modal-target="modal_2">Detalii</button>
                                     </div>
                                     <div>
                                         <label class="btn btn_primary_grd" type="button" for="prd_2">
@@ -158,8 +217,60 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- modal 2 -->
+                        <div id="modal_2" class="modal prd_modal">
+                            <div class="modal_content">
+                                <div class="modal_header">
+                                    <button class="close_btn" type="button" data-close>&times;</button>
+                                </div>
+                                <div class="modal_body">
+                                    <div class="prdModal_slider owl-carousel">
+                                        <div>
+                                            <img src="assets/img/slider2-1.jpg" alt="slide">
+                                        </div>
+                                        <div>
+                                            <img src="assets/img/slider2-1.jpg" alt="slide">
+                                        </div>
+                                        <div>
+                                            <img src="assets/img/slider2-1.jpg" alt="slide">
+                                        </div>
+                                    </div>
+                                    <h3 class="prdModal_title">Aesti® Lunch box 1250 ml</h3>
+                                    <div class="prdModal_priceBox">
+                                        <div class="prdModal_price__old">210 ron</div>
+                                        <div class="prodModal_price">
+                                            129 Ron <span>-40%</span>
+                                        </div>
+                                    </div>
+                                    <p class="prdModal_desc">
+                                        Compact, stylish, and eco-friendly lunch box perfect for work, school, or travel!
+                                    </p>
+
+                                    <ul class="prdModal_info">
+                                        <li><b>3 Compartments & Cutlery Included:</b> Separate main dishes, snacks, and sauces neatly.</li>
+                                        <li><b>Safe & Durable:</b> Made of BPA-free, non-toxic PP materials.</li>
+                                        <li><b>Leakproof & Portable:</b> Lightweight, secure seal, easy to carry.</li>
+                                        <li><b>Microwave & Dishwasher Safe:</b> Safe from -20°C to 110°C (remove lid before microwaving; transparent lids not dishwasher safe).</li>
+                                    </ul>
+                                    <p class="prdModal_extraInfo">
+                                        Cleaning Tip: Remove sealing ring occasionally for thorough drying to prevent mold.
+                                    </p>
+
+                                    <div class="prdModal_actionRow">
+                                        <button class="btn btn_cta" type="button" data-check="prd_2" data-close>
+                                           + Adaugă la comandă
+                                        </button>
+
+                                        <div class="prdModal_cancelLink" data-uncheck="prd_2" data-close>
+                                            Renunță la ofertă
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-    
+
                     <!-- form middle  -->
                     <div class="form_middle">
                         <div class="order_preview">
@@ -182,7 +293,7 @@
                                         </td>
                                     </tr>
                                 </tbody>
-    
+
                                 <tfoot>
                                     <tr>
                                         <td colspan="2">Всього</td>
@@ -194,7 +305,7 @@
                             </table>
                         </div>
                     </div>
-    
+
                     <!-- form bottom -->
                     <div class="form_bottom">
                         <h2>Заполните форму для заказа</h2>
@@ -229,7 +340,7 @@
                 </form>
             </section>
             <!-- end form section -->
-    
+
             <!-- start order process section -->
             <section class="process_section">
                 <div class="faq__accordion">
@@ -264,11 +375,11 @@
                             </div>
                         </div>
                     </div>
-    
+
                 </div>
             </section>
             <!-- end order process section -->
-    
+
             <!-- start extra info section -->
             <section class="extraInfo_section">
                 <div class="extraInfo_top">
@@ -286,7 +397,7 @@
                 </div>
             </section>
             <!-- end extra info section -->
-    
+
             <!-- start section 7 -->
             <section class="section7">
                 <h2 class="section7_title">Investiția ce se rescumpără în doar <span>2-4 mese</span> în oras</h2>
@@ -311,7 +422,7 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="section7_extraInfo">
                     <div>
                         <img class="section7_extraInfoIcon" src="assets/img/icon-coin.svg" alt="coin">
@@ -320,7 +431,7 @@
                 </div>
             </section>
             <!-- end section 7 -->
-    
+
             <!-- start section 8 -->
             <section class="section8">
                 <h2 class="section8_title">E-BOX® — The Perfect Companion in Any Situation</h2>
@@ -353,16 +464,16 @@
                 </div>
                 <div class="section8_bottom">
                     <div>
-                        <a class="btn btn_cta" href="#">
+                        <a class="btn btn_cta" href="#order_now">
                             Comandă ACUM
                         </a>
                     </div>
-    
+
                     <div class="section8_bottomText">Plata la livrare</div>
                 </div>
             </section>
             <!-- end section 8 -->
-    
+
             <!-- start section 9 -->
             <section class="section9">
                 <h2 class="section9_title">Leak-proof & Easy to Clean</h2>
@@ -372,7 +483,7 @@
                 </div>
             </section>
             <!-- end section 9 -->
-    
+
             <!-- start section 10 -->
             <section class="section10">
                 <div class="section10_top">
@@ -386,10 +497,10 @@
                         <div class="section10_infoItem">Tacâmuri din oțel</div>
                     </div>
                 </div>
-    
+
                 <div class="section10_bottom">
                     <div>
-                        <a class="btn btn_cta" href="#">
+                        <a class="btn btn_cta" href="#order_now">
                             Comandă ACUM
                         </a>
                     </div>
@@ -397,7 +508,7 @@
                 </div>
             </section>
             <!-- end section 10 -->
-    
+
             <!-- start faq section -->
             <section class="faq_section">
                 <h2 class="section10_title">FAQ</h2>
@@ -466,7 +577,7 @@
                 </div>
             </section>
             <!-- end faq section -->
-    
+
             <!-- start testimonials section -->
             <section class="testimonials_section">
                 <h2 class="testimonials_title">Ce spun clienții despre E-BOX Lunch BOX</h2>
@@ -494,10 +605,10 @@
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="testimonials_bottom">
                     <div>
-                        <a class="btn btn_cta" href="#">
+                        <a class="btn btn_cta" href="#order_now">
                             Comandă ACUM
                         </a>
                     </div>
@@ -520,6 +631,8 @@
         </footer>
     </div>
 
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
