@@ -1,4 +1,5 @@
-@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+/* @font-face {
     font-family: "Inter", sans-serif;
     src: url("../fonts/Inter.ttf");
 }
@@ -6,7 +7,7 @@
 @font-face {
     font-family: "Oswald", sans-serif;
     src: url("../fonts/Oswald.ttf");
-}
+} */
 
 *,
 *::before,
