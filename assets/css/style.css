@@ -12,7 +12,7 @@
 *::before,
 *::after {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -85,13 +85,13 @@ button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    background: -webkit-gradient(linear, left top, right top, from(#F75920), color-stop(80.55%, #F86022), to(#F86223));
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     background: -o-linear-gradient(left, #F75920 0%, #F86022 80.55%, #F86223 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#F75920), color-stop(80.55%, #F86022), to(#F86223));
     background: linear-gradient(90deg, #F75920 0%, #F86022 80.55%, #F86223 100%);
     border-radius: 0px 0px 10px 10px;
 }
@@ -112,8 +112,8 @@ button {
     max-width: -moz-max-content;
     max-width: max-content;
     margin: auto auto 18px;
-    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#FFEAB0));
     background: -o-linear-gradient(left, #FFC116 0%, #FFEAB0 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#FFEAB0));
     background: linear-gradient(90deg, #FFC116 0%, #FFEAB0 100%);
 }
 
@@ -134,23 +134,23 @@ button {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 17px 40px;
     gap: 16px;
     background: rgba(255, 255, 255, 0.65);
     -webkit-backdrop-filter: blur(9px);
-            backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
     border-radius: 73px;
     -webkit-transform: translateY(20px);
-        -ms-transform: translateY(20px);
-            transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
 }
 
 
@@ -169,8 +169,8 @@ button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 12px 17px;
     gap: 15px;
     border: 1px dashed #FFC116;
@@ -183,7 +183,7 @@ button {
     min-width: 39px;
     height: 39px;
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
 }
 
 .info_priceBox {
@@ -192,8 +192,8 @@ button {
     display: flex;
     gap: 12px;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     margin: auto auto 7px;
     max-width: 100%;
     width: -webkit-max-content;
@@ -215,8 +215,8 @@ button {
 .info_price__discount {
     color: var(--c_white);
     font-weight: 700;
-    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#F86223));
     background: -o-linear-gradient(left, #FFC116 0%, #F86223 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#F86223));
     background: linear-gradient(90deg, #FFC116 0%, #F86223 100%);
     border-radius: 0px 10px 10px 10px;
     padding: 6px 10px;
@@ -233,7 +233,7 @@ button {
 .comment_item {
     background: #FFFFFF;
     -webkit-filter: drop-shadow(0px 4px 21.9px rgba(0, 0, 0, 0.25));
-            filter: drop-shadow(0px 4px 21.9px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 4px 21.9px rgba(0, 0, 0, 0.25));
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -253,10 +253,10 @@ button {
     height: 20px;
     background-color: #ffffff;
     -webkit-transform: translateY(-100%) skewX(15deg);
-        -ms-transform: translateY(-100%) skewX(15deg);
-            transform: translateY(-100%) skewX(15deg);
+    -ms-transform: translateY(-100%) skewX(15deg);
+    transform: translateY(-100%) skewX(15deg);
     -webkit-clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
-            clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
 }
 
 .comment_user img {
@@ -264,7 +264,7 @@ button {
     min-width: 58px;
     height: 58px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -294,15 +294,15 @@ button {
     top: 8px;
     left: 8px;
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border: 1px solid;
     width: 30px;
     height: 30px;
     background-color: #FFFFFF;
     border: 1px solid #AEAEAE;
     -webkit-box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.25);
-            box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -342,13 +342,13 @@ button {
     width: 106px;
     min-width: 106px;
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
 }
 
 .form_select__content {
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
 }
 
 .form_select__title {
@@ -370,7 +370,7 @@ button {
     background-size: 19px;
 }
 
-.form_select__price {
+.form_select__priceBox {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -378,17 +378,18 @@ button {
     background: #FFC116;
     text-align: right;
     -webkit-clip-path: circle(67px at 83px 24px);
-            clip-path: circle(67px at 83px 24px);
+    clip-path: circle(67px at 83px 24px);
+    min-height: 105.75px;
 }
 
-.form_select__price div:first-of-type {
+.form_select__oldPrice {
     color: #5E5E5E;
     font-size: 16px;
     text-decoration: line-through;
     font-weight: 300;
 }
 
-.form_select__price div:last-of-type {
+.form_select__price {
     font-size: 20px;
     font-weight: 700;
 }
@@ -424,8 +425,8 @@ button {
 
 .btn:active {
     -webkit-transform: scale(0.98);
-        -ms-transform: scale(0.98);
-            transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
 }
 
 .btn_primary_outline {
@@ -441,8 +442,8 @@ button {
 .btn_primary_grd {
     border: none;
     padding: 12px 16px;
-    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#FFEAB0));
     background: -o-linear-gradient(left, #FFC116 0%, #FFEAB0 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#FFEAB0));
     background: linear-gradient(90deg, #FFC116 0%, #FFEAB0 100%);
 }
 
@@ -452,9 +453,15 @@ button {
 }
 
 .form_select__input:checked~.form_select_box .btn_primary_grd {
-    background: -webkit-gradient(linear, left top, right top, from(#BFBFBF), to(#FFEAB0));
     background: -o-linear-gradient(left, #BFBFBF 0%, #FFEAB0 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#BFBFBF), to(#FFEAB0));
     background: linear-gradient(90deg, #BFBFBF 0%, #FFEAB0 100%);
+}
+
+.inline_icon {
+    height: 0.9em;
+    margin-right: 0.3em;
+    line-height: 1;
 }
 
 .form_middle {
@@ -465,7 +472,7 @@ button {
 .order_preview {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 72px 29px rgba(0, 0, 0, 0.01), 0px 40px 24px rgba(0, 0, 0, 0.05), 0px 18px 18px rgba(0, 0, 0, 0.09), 0px 4px 10px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 72px 29px rgba(0, 0, 0, 0.01), 0px 40px 24px rgba(0, 0, 0, 0.05), 0px 18px 18px rgba(0, 0, 0, 0.09), 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 72px 29px rgba(0, 0, 0, 0.01), 0px 40px 24px rgba(0, 0, 0, 0.05), 0px 18px 18px rgba(0, 0, 0, 0.09), 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     padding: 16px;
 }
@@ -495,6 +502,7 @@ button {
 }
 
 .order_preivew__oldPrice {
+    color: #5E5E5E;
     font-size: 14px;
     text-decoration: line-through;
 }
@@ -513,8 +521,8 @@ button {
     font-weight: 700;
     text-align: center;
     padding: 10px 30px;
-    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#FFEAB0));
     background: -o-linear-gradient(left, #FFC116 0%, #FFEAB0 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#FFEAB0));
     background: linear-gradient(90deg, #FFC116 0%, #FFEAB0 100%);
     border-radius: 100px;
     display: inline-block;
@@ -571,13 +579,13 @@ button {
     color: var(--c_white);
     font-size: 24px;
     font-weight: 700;
-    background: conic-gradient(from 70deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, #FFFFFF45 360deg), -webkit-gradient(linear, left top, right top, from(#FFC116), to(#F86223));
     background: conic-gradient(from 70deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, #FFFFFF45 360deg), -o-linear-gradient(left, #FFC116 0%, #F86223 100%);
+    background: conic-gradient(from 70deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, #FFFFFF45 360deg), -webkit-gradient(linear, left top, right top, from(#FFC116), to(#F86223));
     background: conic-gradient(from 70deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, #FFFFFF45 360deg), linear-gradient(90deg, #FFC116 0%, #F86223 100%);
     background-size: auto, auto;
     background-size: 113% 120%, 100%;
     -webkit-box-shadow: 0px 4px 0px #BF7821;
-            box-shadow: 0px 4px 0px #BF7821;
+    box-shadow: 0px 4px 0px #BF7821;
     border: none;
     border-radius: 50rem;
 }
@@ -603,8 +611,8 @@ button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 12px;
     font-weight: 600;
 }
@@ -628,11 +636,11 @@ button {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .modal_content {
@@ -642,14 +650,14 @@ button {
     border-radius: 20px;
     overflow: hidden;
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     max-height: calc(100svh - 60px);
 }
 
@@ -664,11 +672,11 @@ button {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .modal_body {
@@ -699,19 +707,22 @@ button {
     border-radius: 10px;
 }
 
-.prdModal_slider{
+.prdModal_slider {
     margin-bottom: 28px;
 }
-.prdModal_slider img{
+
+.prdModal_slider img {
     width: 100%;
     height: 409px;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
-.prdModal_slider .owl-dots{
+
+.prdModal_slider .owl-dots {
     text-align: center;
 }
-.prdModal_slider .owl-dot{
+
+.prdModal_slider .owl-dot {
     width: 25px;
     height: 5px;
     margin-left: 5px;
@@ -719,9 +730,11 @@ button {
     border-radius: 50rem;
     background: #E8E8E8 !important;
 }
-.prdModal_slider .owl-dot.active{
+
+.prdModal_slider .owl-dot.active {
     background: #FFC116 !important;
 }
+
 .prdModal_title {
     font-size: 32px;
     font-weight: 700;
@@ -746,8 +759,8 @@ button {
 .prodModal_price span {
     color: #ffffff;
     font-size: 14px;
-    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#F86223));
     background: -o-linear-gradient(left, #FFC116 0%, #F86223 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#FFC116), to(#F86223));
     background: linear-gradient(90deg, #FFC116 0%, #F86223 100%);
     border-radius: 0px 10px 10px 10px;
     padding: 6px 8px;
@@ -828,7 +841,7 @@ button {
 .process_section .faq__accordion-item {
     border-top: 1px solid rgba(121, 96, 72, 0.1);
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
 }
 
 .process_section .faq__accordion-item:last-of-type {
@@ -863,8 +876,8 @@ button {
 
 .process_section .faq__accordion-item.active .faq__accordion-button::after {
     -webkit-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-            transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
     background-color: #FFC116;
 }
 
@@ -924,15 +937,15 @@ button {
     font-weight: 700;
     background: rgba(255, 227, 148, 0.86);
     -webkit-backdrop-filter: blur(2px);
-            backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
     border-radius: 40px;
     padding: 6px 16px 6px 64px;
     position: absolute;
     top: 42%;
     left: 53%;
     -webkit-transform: translate(-50%);
-        -ms-transform: translate(-50%);
-            transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
@@ -995,11 +1008,11 @@ button {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     padding: 12px 12px 22px;
 }
 
@@ -1074,11 +1087,11 @@ button {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     margin-bottom: 15px;
 }
 
@@ -1260,8 +1273,8 @@ button {
 
 .faq_section .faq__accordion-item.active .faq__accordion-button::after {
     -webkit-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-            transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .faq_section .faq__accordion-button-icon {
@@ -1321,13 +1334,13 @@ button {
     height: 61px;
     border-radius: 50%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 .testimonial_content {
     -webkit-box-flex: 1;
-        -ms-flex-positive: 1;
-            flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
 }
 
 .testimonial_clientName {
@@ -1371,11 +1384,11 @@ button {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     gap: 24px;
     font-size: 15px;
     line-height: 24px;
@@ -1396,8 +1409,8 @@ button {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     gap: 19px 20px;
 }

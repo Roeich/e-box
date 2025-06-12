@@ -99,7 +99,7 @@
                         <h2 class="form_title">Аксессуары для Максимального Удобства</h2>
                         <!-- select 1 -->
                         <div class="form_select">
-                            <input class="form_select__input" type="checkbox" id="prd_1" name="product1" value="E-BOX® Insulated Lunch Bag">
+                            <input class="form_select__input" type="checkbox" id="prd_1" name="product1" value="E-BOX® Insulated Lunch Bag" checked>
                             <div class="form_select_box">
                                 <div class="form_select__top">
                                     <div class="form_select__img" data-modal-target="modal_1">
@@ -112,19 +112,19 @@
                                             <li>Heat & Cold Preservation</li>
                                         </ul>
                                     </div>
-                                    <div class="form_select__price">
-                                        <div>120 Ron</div>
-                                        <div>69 Ron</div>
+                                    <div class="form_select__priceBox">
+                                        <div class="form_select__oldPrice">120 Ron</div>
+                                        <div class="form_select__price">69 Ron</div>
                                     </div>
                                 </div>
                                 <div class="form_select__bottom">
                                     <div>
-                                        <button class="btn btn_primary_outline" type="button" data-modal-target="modal_1">Detalii</button>
+                                        <button class="btn btn_primary_outline" type="button" data-modal-target="modal_1"><img class="inline_icon" src="assets/img/icon-datail.svg" alt="detail">Detalii</button>
                                     </div>
                                     <div>
-                                        <label class="btn btn_primary_grd" type="button" for="prd_1">
-                                            <span>Adaugă</span>
-                                            <span>Anulează</span>
+                                        <label class="btn btn_primary_grd" for="prd_1">
+                                            <span><img class="inline_icon" src="assets/img/icon-add.svg" alt="">Adaugă</span>
+                                            <span><img class="inline_icon" src="assets/img/icon-delete.svg" alt="">Anulează</span>
                                         </label>
                                     </div>
                                 </div>
@@ -202,19 +202,19 @@
                                             <li>Microwave safe & Leakproof</li>
                                         </ul>
                                     </div>
-                                    <div class="form_select__price">
-                                        <div>80 Ron</div>
-                                        <div>49 Ron</div>
+                                    <div class="form_select__priceBox">
+                                        <div class="form_select__oldPrice">80 Ron</div>
+                                        <div class="form_select__price">49 Ron</div>
                                     </div>
                                 </div>
                                 <div class="form_select__bottom">
                                     <div>
-                                        <button class="btn btn_primary_outline" type="button" data-modal-target="modal_2">Detalii</button>
+                                        <button class="btn btn_primary_outline" type="button" data-modal-target="modal_2"><img class="inline_icon" src="assets/img/icon-datail.svg" alt="detail">Detalii</button>
                                     </div>
                                     <div>
-                                        <label class="btn btn_primary_grd" type="button" for="prd_2">
-                                            <span>Adaugă</span>
-                                            <span>Anulează</span>
+                                        <label class="btn btn_primary_grd" for="prd_2">
+                                            <span><img class="inline_icon" src="assets/img/icon-add.svg" alt="">Adaugă</span>
+                                            <span><img class="inline_icon" src="assets/img/icon-delete.svg" alt="">Anulează</span>
                                         </label>
                                     </div>
                                 </div>
@@ -279,19 +279,12 @@
                         <div class="order_preview">
                             <h3>Ваш заказ</h3>
                             <table class="order_preview__table">
-                                <tbody>
+                                <tbody class="order_preview__items">
                                     <tr>
                                         <td>1x</td>
                                         <td>E-BOX® Portable Electric Heated Lunch Box</td>
                                         <td>
                                             <span class="order_preivew__oldPrice">120 Ron</span><br>
-                                            <b class="order_preview__price"> 69 Ron </b>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>1x</td>
-                                        <td>Aesti® Lunch box</td>
-                                        <td>
                                             <b class="order_preview__price"> 69 Ron </b>
                                         </td>
                                     </tr>
@@ -301,7 +294,7 @@
                                     <tr>
                                         <td colspan="2">Всього</td>
                                         <td>
-                                            <b class="order_preview__price">200 RON</b>
+                                            <b class="order_preview__price order_preview__totalPrice">69 RON</b>
                                         </td>
                                     </tr>
                                 </tfoot>
