@@ -335,6 +335,7 @@ button {
 
 .form_select__img {
     padding-top: 28px;
+    cursor: pointer;
 }
 
 .form_select__img img {
